@@ -1,6 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar.jsx';
 import Footer from './components/Footer.jsx';
+import CodeBackground from './components/CodeBackground.jsx';
+import ChatBot from './components/ChatBot.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Services from './pages/Services.jsx';
@@ -9,6 +11,7 @@ import Contact from './pages/Contact.jsx';
 export default function App() {
 	return (
 		<div className="app-root">
+			<CodeBackground />
 			<NavBar />
 			<main className="main-content">
 				<Routes>
@@ -19,6 +22,7 @@ export default function App() {
 				</Routes>
 			</main>
 			<Footer />
+			<ChatBot />
 		</div>
 	);
 }
