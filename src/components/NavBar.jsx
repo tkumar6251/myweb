@@ -62,7 +62,7 @@ export default function NavBar() {
 					<NavLink to="/" end className="nav-link" onClick={closeMenu}>Home</NavLink>
 					<NavLink to="/about" className="nav-link" onClick={closeMenu}>About</NavLink>
 					<NavLink to="/services" className="nav-link" onClick={closeMenu}>Services</NavLink>
-					<NavLink to="/contact" className="nav-link" onClick={closeMenu}>Contact</NavLink>
+					<Link to="/contact" className="btn btn-primary nav-contact-btn" onClick={closeMenu}>Contact Us</Link>
 				</nav>
 				{isMenuOpen && (
 					<div className="nav-overlay" onClick={closeMenu}></div>

@@ -49,15 +49,10 @@ export default function Hero() {
 				<video className="hero-bg" src="/bg.mp4" autoPlay muted loop playsInline />
 				<div ref={containerRef} className="hero-tilt">
 					<div className="hero-card">
-						<img className="hero-logo" src="/src/images/Fevicon.png" alt="Logo" />
 						<h1 className="hero-title">Tailored Solutions for Your Business</h1>
 						<p className="hero-subtitle">
 							Conversational AI, KYC, eSign, and enterprise-grade integrations — built to scale.
 						</p>
-						<div className="hero-cta">
-							<a className="btn btn-primary" href="/services">Explore Services</a>
-							<a className="btn btn-secondary" href="/contact">Contact Us</a>
-						</div>
 					</div>
 					<div className="hero-orb orb-1"></div>
 					<div className="hero-orb orb-2"></div>
